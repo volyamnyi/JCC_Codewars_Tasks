@@ -1,0 +1,12 @@
+https://www.codewars.com/kata/convert-to-binary
+
+public class Kata {
+  public static int toBinary(int n) {
+    StringBuilder binN = new StringBuilder("");
+    while(n > 0){
+        binN.append(n % 2);
+        n /= 2;
+    }
+    return Integer.parseInt(binN.reverse().toString());
+  }
+}

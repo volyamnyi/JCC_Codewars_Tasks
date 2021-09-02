@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/return-negative
+
+public class Kata {
+  public static long makeNegative(final int x) {
+    if(x==0)return 0;
+    if(x<0)return x;
+    return x-x*2;
+  }
+}
