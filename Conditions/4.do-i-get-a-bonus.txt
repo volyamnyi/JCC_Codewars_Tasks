@@ -1,0 +1,7 @@
+https://www.codewars.com/kata/do-i-get-a-bonus/
+
+public class Kata{
+  public static String bonusTime(final int salary, final boolean bonus) {
+   return bonus ? "?" + salary * 10 : "?" + salary;
+  }
+}

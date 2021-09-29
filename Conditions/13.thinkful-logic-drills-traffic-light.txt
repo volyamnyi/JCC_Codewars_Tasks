@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/thinkful-logic-drills-traffic-light/
+
+public class TrafficLights {
+
+  public static String updateLight(String current) {
+    return current.equals("red") ? "green" : current.equals("green") ? "yellow" : "red";
+  }
+  
+} "green" : current.equals("green") ? "yellow" : "red";

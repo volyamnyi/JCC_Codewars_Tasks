@@ -1,0 +1,9 @@
+https://www.codewars.com/kata/how-old-will-i-be-in-2099/
+
+public class AgeDiff {
+  public static String CalculateAge(int birth, int yearTo) {
+    return yearTo  > birth ? (yearTo - birth) < 2 ? "You are 1 year old." : "You are "+(yearTo - birth)+" years old." :
+    birth  > yearTo ? (birth - yearTo) < 2 ? "You will be born in 1 year." : "You will be born in "+(birth - yearTo)+" years." :
+    "You were born this very year!";
+  }
+}
